@@ -39,24 +39,32 @@
 .operation {
   display: flex;
   padding-left: 25px;
+  gap: 50%;
 }
 
 .add-btn {
   background-color: rgb(64, 212, 126);
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
-  border: ;
+  border: none;
+  text-align: center;
 }
 
 .filter {
-  font-size: ;
   display: flex;
-  justify-content: right;
-  align-items: center;
+  gap: 15px;
 }
 
 .search {
+  text-align: center;
 }
 
 .filter-btn {
+  border: none;
+  background-color: orangered;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
 }
