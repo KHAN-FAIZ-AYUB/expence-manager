@@ -35,3 +35,28 @@
   padding: 15px 25px;
   color: gray;
 }
+
+.operation {
+  display: flex;
+  padding-left: 25px;
+}
+
+.add-btn {
+  background-color: rgb(64, 212, 126);
+  font-size: 20px;
+  cursor: pointer;
+  border: ;
+}
+
+.filter {
+  font-size: ;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.search {
+}
+
+.filter-btn {
+}
