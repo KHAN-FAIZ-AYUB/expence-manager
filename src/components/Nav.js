@@ -1,11 +1,12 @@
 const Nav = () => {
   return (
     <div>
-      <p>
-        <button>Home</button>
-        <button>About</button>
-        <button>Contact</button>
-      </p>
+      <nav className="nav">
+        <span>Expence Manager</span>
+        <button className="nav-btn">Home</button>
+        <button className="nav-btn">About</button>
+        <button className="nav-btn">Contact</button>
+      </nav>
     </div>
   );
 };

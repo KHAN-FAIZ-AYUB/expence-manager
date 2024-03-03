@@ -1,10 +1,11 @@
 import Nav from "./Nav";
+import Operation from "./Operation";
 
 function App() {
   return (
-    <div>
-      <h1>EXPENCE MANAGER</h1>
+    <div className="app">
       <Nav />
+      <Operation />
     </div>
   );
 }
