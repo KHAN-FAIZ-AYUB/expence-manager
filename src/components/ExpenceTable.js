@@ -5,6 +5,9 @@ const ExpenceTable = ({ tHead }) => {
       {tHead.map((element) => (
         <th>{element}</th>
       ))}
+      <tr>
+        <td></td>
+      </tr>
     </table>
   );
 };

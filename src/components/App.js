@@ -1,4 +1,5 @@
 import ExpenceTable from "./ExpenceTable";
+// import Form from "./Form";
 import Nav from "./Nav";
 import Operation from "./Operation";
 
@@ -17,6 +18,7 @@ function App() {
       <Nav />
       <Operation />
       <ExpenceTable tHead={tableHead} />
+      {/* <Form /> */}
     </div>
   );
 }
